@@ -1,0 +1,62 @@
+{
+  "classes": {
+    "0": {
+      "folder_name": "Cyst",
+      "display_name": "Cystine Kidney Stone",
+      "sub_title": "Cystine Calculus / Renal Cystic Finding",
+      "category": "Cystine Stone / Cyst",
+      "severity": "Moderate",
+      "color": "#F59E0B",
+      "status_badge": "Pathological Finding Detected (Cystine Stone)",
+      "clinical_summary": "The deep learning model detected radiological patterns characteristic of a Cystine Kidney Stone or Renal Cystic formation within the kidney parenchyma.",
+      "description": "Cystine stones are a metabolic form of urolithiasis caused by cystinuria, resulting in high concentrations of insoluble cystine crystals in the urinary tract. In CT imaging, these manifest as persistent hyperdense or well-circumscribed cystic structures.",
+      "treatments": [
+        "Hydration Regimen: Aggressive fluid intake (>3.5 to 4 liters/day) to maintain urine output above 3 L/day.",
+        "Urinary Alkalinization: Administration of potassium citrate or sodium bicarbonate to maintain urinary pH between 7.0 and 7.5 (dramatically increasing cystine solubility).",
+        "Dietary Adjustments: Restrict dietary sodium (<2,000 mg/day) and moderate animal protein intake to decrease cystine excretion.",
+        "Thiol-Binding Pharmacotherapy: Tiopronin (Thiola) or D-penicillamine if urinary cystine excretion remains >500 mg/day despite alkalinization.",
+        "Surgical / Interventional Management: Extracorporeal Shock Wave Lithotripsy (ESWL) often has reduced efficacy on hard cystine stones; Ureteroscopy (URS) with holmium laser or Percutaneous Nephrolithotomy (PCNL) is preferred for stones >15 mm."
+      ]
+    },
+    "1": {
+      "folder_name": "Normal",
+      "display_name": "Normal (Healthy)",
+      "sub_title": "Healthy Renal Architecture",
+      "category": "Normal",
+      "severity": "Low",
+      "color": "#10B981",
+      "status_badge": "Normal Scan - No Pathological Abnormalities Detected",
+      "clinical_summary": "No signs of nephrolithiasis, calculi, renal masses, or suspicious cystic abnormalities detected.",
+      "description": "The renal cortex, medulla, pelvicalyceal system, and surrounding perinephric fat planes demonstrate normal anatomical continuity with no radio-opaque calculi or atypical density variations.",
+      "treatments": [
+        "Optimal Hydration: Continue drinking 2.0 to 2.5 liters of clean water daily to preserve optimal renal clearance.",
+        "Dietary Balance: Maintain a balanced diet rich in citrus fruits, moderate calcium, and low refined salts.",
+        "Kidney Function Monitoring: Routine annual preventative checkups including serum creatinine, BUN, and urinalysis.",
+        "Lifestyle Maintenance: Regular cardiovascular exercise and blood pressure regulation to protect microvascular nephron integrity."
+      ]
+    },
+    "2": {
+      "folder_name": "Tumor",
+      "display_name": "Renal Tumor",
+      "sub_title": "Suspicious Renal Neoplasm / Solid Mass",
+      "category": "Tumor",
+      "severity": "Critical",
+      "color": "#EF4444",
+      "status_badge": "Critical Finding - Urgent Urological / Oncological Referral",
+      "clinical_summary": "The model detected structural heterogeneity, parenchymal deformation, and density shifts indicative of a renal mass or neoplastic lesion.",
+      "description": "Renal tumors may encompass renal cell carcinoma (RCC), oncocytoma, or angiomyolipoma. Accurate early radiological recognition is paramount for organ-sparing intervention and favorable prognosis.",
+      "treatments": [
+        "Urgent Urological Consultation: Immediate referral to a specialized urologic surgeon or multidisciplinary oncology tumor board.",
+        "Multiphasic Contrast CT / MRI: Quad-phase contrast-enhanced abdominal CT or renal MRI protocol to evaluate contrast enhancement, vascular involvement, and renal vein thrombosis.",
+        "Surgical Resection: Partial Nephrectomy (nephron-sparing surgery for T1a/T1b tumors) or Radical Nephrectomy depending on mass diameter and RENAL nephrometry score.",
+        "Thermal Ablation Options: Percutaneous cryoablation or microwave ablation for select small renal masses (<3 cm) in high-surgical-risk patients.",
+        "Histopathology & Staging: Post-surgical pathology for Fuhrman/WHO nuclear grading, staging, and potential systemic/targeted therapy if indicated."
+      ]
+    }
+  },
+  "raw_indices": {
+    "Cyst": 0,
+    "Normal": 1,
+    "Tumor": 2
+  }
+}
